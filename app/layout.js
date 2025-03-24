@@ -1,13 +1,13 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import I18nProvider from './../I18nProvider';
-import Btn from './../btns';
+import I18nProvider from "./../I18nProvider";
+import Btn from "./../btns";
 
 const poppins = Poppins({
   weight: ["400", "500", "600", "700"],
   subsets: ["latin"],
   display: "swap",
-  variable: "--font-poppins" // Создаем CSS-переменную для удобства
+  variable: "--font-poppins", // Создаем CSS-переменную для удобства
 });
 export const metadata = {
   title: "Create Next App",
@@ -18,8 +18,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="ru" className={poppins.variable}>
       <body className="font-sans antialiased">
-        <Btn />
-        <I18nProvider>{children}</I18nProvider>
+        <I18nProvider>
+          <Btn />
+          {children}
+        </I18nProvider>
       </body>
     </html>
   );

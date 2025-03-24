@@ -9,7 +9,7 @@ const Home = ({t}) => {
         <div>
           <Link
             className=" font-semibold flex items-center gap-3 hover:underline hover:pl-[9px] transition-all"
-            href="./dua1"
+            href="../dua1"
           >
             <p className="text-green-700 size-[27px]">👉︎</p>
             {t("titleDua1.title")}
@@ -18,7 +18,7 @@ const Home = ({t}) => {
         <div>
           <Link
             className="font-semibold flex items-center gap-3 hover:underline hover:pl-[9px] transition-all"
-            href="./dua2"
+            href="../dua2"
           >
             <p className="text-green-700 size-[27px]">👉︎</p>
             {t("titleDua2.title")}
@@ -27,7 +27,7 @@ const Home = ({t}) => {
         <div>
           <Link
             className="font-semibold flex items-center gap-3 hover:underline hover:pl-[9px] transition-all"
-            href="./dua3"
+            href="../dua3"
           >
             <p className="text-green-700 size-[27px]">👉︎</p>
             {t("titleDua3.title")}
@@ -36,7 +36,7 @@ const Home = ({t}) => {
         <div>
           <Link
             className=" font-semibold flex items-center gap-3 hover:underline hover:pl-[9px] transition-all"
-            href="./dua4"
+            href="../dua4"
           >
             <p className="text-green-700 size-[27px]">👉︎</p>
             {t("titleDua4.title")}
@@ -45,7 +45,7 @@ const Home = ({t}) => {
         <div>
           <Link
             className=" font-semibold flex items-center gap-3 hover:underline hover:pl-[9px] transition-all"
-            href="./dua5"
+            href="../dua5"
           >
             <p className="text-green-700 size-[27px]">👉︎</p>
             {t("titleDua5.title")}

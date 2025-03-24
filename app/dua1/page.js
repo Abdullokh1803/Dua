@@ -12,7 +12,7 @@ const Dua1 = () => {
 
   return (
     <div className="mx-auto p-[20px] w-[380px]  max-[420px]:w-[340px]">
-      <Link href="/">
+      <Link href="../home">
         <IoIosArrowBack className="size-[42px]" />
       </Link>
       <div className="mt-[50px] flex flex-col gap-8">

@@ -1,14 +1,10 @@
-'use client';
+"use client"; // Обязательно
 
-import { I18nextProvider } from 'react-i18next';
-import i18n from '@/i18n';
-import { useEffect } from 'react';
+import { I18nextProvider } from "react-i18next";
+import i18n from "./i18n"; // Проверь, что этот файл существует
 
-export default function I18nProvider({ children }) {
-  useEffect(() => {
-    // Синхронизация языка в теге html
-    document.documentElement.lang = i18n.language;
-  }, [i18n.language]);
-
+const I18nProvider = ({ children }) => {
   return <I18nextProvider i18n={i18n}>{children}</I18nextProvider>;
-}
+};
+
+export default I18nProvider;
