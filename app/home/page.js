@@ -2,8 +2,12 @@
 
 import Link from 'next/link'
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
-const Home = ({t}) => {
+const Home = () => {
+
+  const {t} = useTranslation()
+
   return (
     <div className="w-[380px] p-[20px] max-[450px]:w-[380px] mx-auto flex h-[70vh] flex-col justify-evenly text-[18px]">
         <div>

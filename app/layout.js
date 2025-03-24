@@ -1,7 +1,7 @@
 import { Poppins } from "next/font/google";
 import "./globals.css";
-import I18nProvider from "./../I18nProvider";
-import Btn from "./../btns";
+import I18nProvider from "../I18nProvider";
+import Btn from "../btns";
 
 const poppins = Poppins({
   weight: ["400", "500", "600", "700"],

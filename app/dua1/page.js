@@ -12,17 +12,18 @@ const Dua1 = () => {
 
   return (
     <div className="mx-auto p-[20px] w-[380px]  max-[420px]:w-[340px]">
-      <Link href="../home">
+      <Link href="/" aria-label="Back to home">
         <IoIosArrowBack className="size-[42px]" />
       </Link>
       <div className="mt-[50px] flex flex-col gap-8">
         <div className="mx-auto">
           <Image
-            alt="laylat al-Qodr"
             src={"/kadirdua.jpg"}
-            width={300}
-            height={300}
-            loading='lazy'
+            width={400}
+            height={400}
+            priority={true}
+            style={{ width: "auto", height: "auto" }} 
+            alt={t("titleDua1.title")}
             />
         </div>
         <p>
